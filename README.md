@@ -11,9 +11,9 @@ upper round it
 Approach 2)
 Requires a adjustable microscope and little complicated code
 
-Step 1) Identify regions of bacteria by contour edge detection\n
-Step 2) Zoom in on them using the variably adjusted microscope\n
-Step 3) Do an advanced version of the 1st approach by accounting for overlap\n
+Step 1) Identify regions of bacteria by contour edge detection
+Step 2) Zoom in on them using the variably adjusted microscope
+Step 3) Do an advanced version of the 1st approach by accounting for overlap
 
 Approach 3)
 Deep transfer learning model
