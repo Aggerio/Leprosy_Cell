@@ -1,0 +1,36 @@
+Ultimate Goal --> AI microscope 
+
+Microscope Resource --> https://www.studyadda.com/notes/jee-main-advanced/physics/ray-optics/microscope/8755
+
+Quotation -- > https://bio.libretexts.org/Learning_Objects/Laboratory_Experiments/Microbiology_Labs/Microbiology_Labs_I/11%3A_Bacterial_Numbers#:~:text=The%20two%20most%20widely%20used,yield%2C%20there%20are%20distinct%20differences.
+
+
+
+Many studies require the quantitative determination of bacterial populations. The two most widely used methods for determining bacterial numbers are the standard, or viable, plate count method and spectrophotometric (turbidimetric) analysis. Although the two methods are somewhat similar in the results they yield, there are distinct differences. For example, the standard plate count method is an indirect measurement of cell density and reveals information related only to live bacteria. The spectrophotometric analysis is based on turbidity and indirectly measures all bacteria (cell biomass), dead and alive.
+
+The standard plate count method consists of diluting a sample with sterile saline or phosphate buffer diluent until the bacteria are dilute enough to count accurately. That is, the final plates in the series should have between 30 and 300 colonies. Fewer than 30 colonies are not acceptable for statistical reasons (too few may not be representative of the sample), and more than 300 colonies on a plate are likely to produce colonies too close to each other to be distinguished as distinct colony-forming units (CFUs). The assumption is that each viable bacterial cell is separate from all others and will develop into a single discrete colony (CFU). Thus, the number of colonies should give the number of bacteria that can grow under the incubation conditions employed. A wide series of dilutions (e.g., 10-4 to 10-10) is normally plated because the exact number of bacteria is usually unknown. Greater accuracy is achieved by plating duplicates or triplicates of each dilution, although we will not be doing that in this exercise.
+
+Increased turbidity in a culture is another index of bacterial growth and cell numbers (biomass). By using a spectrophotometer, the amount of transmitted light decreases as the cell population increases. The transmitted light is converted to electrical energy, and this is indicated on a galvanometer. The reading, called absorbance or optical density, indirectly reflects the number of bacteria. This method is faster than the standard plate count but is limited because sensitivity is restricted to bacterial suspensions of 107cells or greater. The procedure for the spectrophotometer use is at the end of this exercise.
+
+Why Is E. coli used in this exercise? When working with large numbers and a short time frame, one of the most reliable microorganisms is one that has been used in previous experiments, namely, Escherichia coli. E. coli has a generation time at 37ºC of 20 minutes. Thus, it reproduces very rapidly and is easy to quantify (i.e., the number (biomass) of viable E. coli cells in a bacterial culture can be easily determined by spectrophotometry).
+
+Quotation end;
+
+So to summarise it up , They dilute the solution until the bacteria count is
+between 30 and 300 to ensure that each bacteria will be countable.
+
+
+Our goal will be -->
+1) Figure out a way to identify a single bacteria from its surrounding  
+
+TO FINALISE A FINAL METHOD
+Method 1)  An advanced version of Approach 1
+Get the relative growth dimensions of the bacteria based on the life cycle
+and previous known data, probably from a lookup table . From it , hence giving us
+the average pixel count , that we were eye balling in the first approach and
+then we can do an accurate counting 
+
+Method 2) Make an adjustble a microscope swivel that can change the focus of the
+microscope on demand, also adjusting the specimen to focus on particular parts
+of the sample. Then its just a simple contour detection algorithm
+
